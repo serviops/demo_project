@@ -3,5 +3,8 @@ files:
   - 
     destination: /var/www/html/
     source: ./html
+hooks:
+    BeforeInstall:
+        - location: scripts/beforeInstall.bash
 os: linux
 version: 0.0
