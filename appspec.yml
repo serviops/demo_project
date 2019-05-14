@@ -1,10 +1,7 @@
 --- 
 files: 
   - 
-    destination: /var/www/html/
+    destination: /var/www/html
     source: ./html
-hooks:
-    BeforeInstall:
-        - location: scripts/beforeInstall.sh
 os: linux
 version: 0.0
