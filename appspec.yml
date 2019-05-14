@@ -5,6 +5,6 @@ files:
     source: ./html
 hooks:
     BeforeInstall:
-        - location: scripts/beforeInstall.bash
+        - location: scripts/beforeInstall.sh
 os: linux
 version: 0.0
