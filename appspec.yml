@@ -1,7 +1,7 @@
 --- 
 files: 
   - 
-    destination: /var/www
-    source: /
+    destination: /var/www/html
+    source: ./html
 os: linux
 version: 0.0
