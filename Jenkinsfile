@@ -1,8 +1,5 @@
 pipeline {
     agent any
-    parameters {
-        string(name: 'domain', defaultValue: 'demo.vbout.com', description: 'What is your domain?')
-    }
     stages {
         stage('cleanup') {
             steps {
